@@ -9,10 +9,11 @@ body {
 nav {
     width: 100%;
     background-color: #FF4500;
+    display: flex;
 }
 
 nav ul {
-    margin: 0 0 0 100px;
+    margin: 0 0 0 33%;
     padding: 0;
     overflow: hidden;
     list-style: none;
@@ -23,6 +24,12 @@ nav ul li {
 
 }
 
+.logo {
+    font-size: 33px;
+    margin: 0 0 0 5%;
+    color: #fff;
+}
+
 nav ul li a {
     display: block;
     padding: 16px 20px;
@@ -31,7 +38,7 @@ nav ul li a {
 }
 
 input[type="search"] {
-    margin-left: 550px;
+    margin-left: 80px;
     font-size: 16px;
     outline: none;
     border-radius: 5px;
